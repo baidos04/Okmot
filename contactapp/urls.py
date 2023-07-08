@@ -4,7 +4,7 @@ from rest_framework import routers
 from .views import ContInfoListCreateView, ContInfoDetailView, FeedbackListCreateView, FeedbackDetailView, \
     ContactappViewSet
 from . import views
-
+# urlchik
 router = routers.DefaultRouter()
 router.register(r'contactapp', ContactappViewSet)
 
