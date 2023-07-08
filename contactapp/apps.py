@@ -1,4 +1,4 @@
-from django.apps import *
+from django.apps import AppConfig
 
 
 class ContactappConfig(AppConfig):
