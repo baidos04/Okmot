@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17867def-87a4-4a32-ac05-3f79b4b74023" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contactapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/contactapp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contactapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/contactapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contactapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/contactapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-    </list>
+    <list default="true" id="17867def-87a4-4a32-ac05-3f79b4b74023" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -2,7 +2,7 @@ from django.contrib import admin
 
 
 from .models import *
-# admin
+# adminka
 admin.site.register(ContInfo)
 admin.site.register(Feedback)
 
