@@ -12,11 +12,10 @@ class ContInfo(models.Model):
         verbose_name_plural = 'Контактная информация'
 
 
-
 class Feedback(models.Model):
     name = models.CharField(max_length=100)
     email = models.EmailField()
-    massage = models.TextField()
+    message = models.TextField()
 
     class Meta:
         verbose_name = 'Обратная связь'
