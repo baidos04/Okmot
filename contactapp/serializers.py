@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import ContInfo, Feedback
+from .models import *
 
 
 class ContInfoSerializer(serializers.ModelSerializer):
