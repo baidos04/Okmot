@@ -23,5 +23,6 @@ urlpatterns = [
     path('api/', include(mainapp_urls)),
     path('news/', include('newsapp.urls')),
     path('contact/', include('contactapp.urls')),
+    path('about/', include('aboutapp.urls')),
 ]
 
