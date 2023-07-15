@@ -1,18 +1,22 @@
 from django.shortcuts import render
 
-from rest_framework import viewsets
+from rest_framework import viewsets, generics
 from .models import *
 from .serializers import HistorySerializer, AdminContactSerializer, DeputiesSerializer
 
-class HistoryViewSet(viewsets.ModelViewSet):
+
+
+class HistoryListCreateView(generics.ListCreateAPIView):
     queryset = History.objects.all()
     serializer_class = HistorySerializer
 
-class AdminContactViewSet(viewsets.ModelViewSet):
+
+class AdminListCreateView(generics.ListCreateAPIView):
     queryset = AdminContact.objects.all()
     serializer_class = AdminContactSerializer
 
-class DeputiesViewSet(viewsets.ModelViewSet):
+
+class DeputiesListCreateView(generics.ListCreateAPIView):
     queryset = Deputies.objects.all()
     serializer_class = DeputiesSerializer
 
