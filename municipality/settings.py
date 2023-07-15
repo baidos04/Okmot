@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'mainapp.apps.MainappConfig',
     'contactapp.apps.ContactappConfig',
     'newsapp.apps.NewsappConfig',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
